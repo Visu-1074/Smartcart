@@ -1,0 +1,16 @@
+backend/.venv/
+**/.env
+**/.env.*
+!**/.env.example
+backend/.data/
+backend/smartcart.db
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.ruff_cache/
+**/.venv/
+**/venv/
+**/node_modules/
+**/dist/
+**/*.tsbuildinfo
+**/.git/

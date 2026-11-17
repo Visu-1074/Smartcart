@@ -116,4 +116,3 @@ The mock catalogue contains 139 demo products, including 103 grocery and everyda
 Official source documentation checked for adapters: [Amazon Creators API SearchItems](https://affiliate-program.amazon.in/creatorsapi/docs/en-us/api-reference/operations/search-items), [Amazon Creators API migration and endpoint details](https://affiliate-program.amazon.in/creatorsapi/docs/en-us/migrating-to-creatorsapi-from-paapi), [Flipkart Affiliate API product search](https://affiliate.flipkart.com/api-docs/af_prod_ref.html), [Cuelinks link conversion API](https://apiui.cuelinks.com/docs/reference/links/convert), and [Cuelinks API coverage](https://cuelinks.zohodesk.com/portal/en/kb/articles/what-are-the-different-types-of-apis-available).
 
 
-

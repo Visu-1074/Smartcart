@@ -1,0 +1,42 @@
+categories:
+  general: [amazon_in, flipkart, meesho, snapdeal, jiomart, tata_cliq]
+  electronics: [croma, reliance_digital, vijay_sales]
+  fashion: [myntra, ajio, tata_cliq_fashion]
+  beauty: [nykaa, purplle, tira]
+  grocery_quick_commerce: [bigbasket, blinkit, zepto, swiggy_instamart, dmart_ready]
+  pharmacy: [tata_1mg, pharmeasy, apollo_pharmacy, netmeds]
+  home_furniture: [pepperfry, urban_ladder, ikea_india]
+  baby_kids: [firstcry]
+  books: [bookswagon, crossword]
+platforms:
+  amazon_in: {name: Amazon.in, mode: mock, color: '#ff9900', url: 'https://www.amazon.in/s?k={query}', delivery_fee: 40, free_delivery_threshold: 499, checkout: amazon, api_source: amazon_creators}
+  flipkart: {name: Flipkart, mode: mock, color: '#2874f0', url: 'https://www.flipkart.com/search?q={query}', delivery_fee: 40, free_delivery_threshold: 500, api_source: flipkart_affiliate}
+  meesho: {name: Meesho, mode: mock, color: '#9f2089', url: 'https://www.meesho.com/search?q={query}', delivery_fee: 0, free_delivery_threshold: 0}
+  snapdeal: {name: Snapdeal, mode: mock, color: '#e40046', url: 'https://www.snapdeal.com/search?keyword={query}', delivery_fee: 45, free_delivery_threshold: 499}
+  jiomart: {name: JioMart, mode: mock, color: '#0078ad', url: 'https://www.jiomart.com/search/{query}', delivery_fee: 25, free_delivery_threshold: 299}
+  tata_cliq: {name: Tata CLiQ, mode: mock, color: '#4a286d', url: 'https://www.tatacliq.com/search/?searchCategory=all&text={query}', delivery_fee: 49, free_delivery_threshold: 1000}
+  croma: {name: Croma, mode: mock, color: '#00a9a5', url: 'https://www.croma.com/searchB?q={query}', delivery_fee: 99, free_delivery_threshold: 5000}
+  reliance_digital: {name: Reliance Digital, mode: mock, color: '#e31837', url: 'https://www.reliancedigital.in/search?q={query}', delivery_fee: 99, free_delivery_threshold: 5000}
+  vijay_sales: {name: Vijay Sales, mode: mock, color: '#ed1c24', url: 'https://www.vijaysales.com/search/{query}', delivery_fee: 99, free_delivery_threshold: 5000}
+  myntra: {name: Myntra, mode: mock, color: '#ff3f6c', url: 'https://www.myntra.com/{query}', delivery_fee: 0, free_delivery_threshold: 799}
+  ajio: {name: AJIO, mode: mock, color: '#2c2c2c', url: 'https://www.ajio.com/search/?text={query}', delivery_fee: 49, free_delivery_threshold: 1199}
+  tata_cliq_fashion: {name: Tata CLiQ Fashion, mode: mock, color: '#4a286d', url: 'https://www.tatacliq.com/search/?searchCategory=all&text={query}', delivery_fee: 49, free_delivery_threshold: 1000}
+  nykaa: {name: Nykaa, mode: mock, color: '#fc2779', url: 'https://www.nykaa.com/search/result/?q={query}', delivery_fee: 49, free_delivery_threshold: 500}
+  purplle: {name: Purplle, mode: mock, color: '#6c2a87', url: 'https://www.purplle.com/search?q={query}', delivery_fee: 40, free_delivery_threshold: 399}
+  tira: {name: Tira, mode: mock, color: '#63356c', url: 'https://www.tirabeauty.com/search?q={query}', delivery_fee: 50, free_delivery_threshold: 500}
+  bigbasket: {name: bigbasket, mode: mock, color: '#84c225', url: 'https://www.bigbasket.com/ps/?q={query}', delivery_fee: 30, free_delivery_threshold: 600}
+  blinkit: {name: Blinkit, mode: mock, color: '#f8cb46', url: 'https://blinkit.com/s/?q={query}', delivery_fee: 25, free_delivery_threshold: 199, quick_commerce: true, api_source: quickcommerce_api}
+  zepto: {name: Zepto, mode: mock, color: '#7f35cd', url: 'https://www.zeptonow.com/search?query={query}', delivery_fee: 25, free_delivery_threshold: 199, quick_commerce: true}
+  swiggy_instamart: {name: Swiggy Instamart, mode: mock, color: '#fc8019', url: 'https://www.swiggy.com/instamart/search?custom_back=true&query={query}', delivery_fee: 25, free_delivery_threshold: 199, quick_commerce: true}
+  dmart_ready: {name: DMart Ready, mode: mock, color: '#ed1c24', url: 'https://www.dmart.in/search?query={query}', delivery_fee: 20, free_delivery_threshold: 499}
+  tata_1mg: {name: Tata 1mg, mode: mock, color: '#ff6f61', url: 'https://www.1mg.com/search/all?name={query}', delivery_fee: 40, free_delivery_threshold: 500, pharmacy: true}
+  pharmeasy: {name: PharmEasy, mode: mock, color: '#10847e', url: 'https://pharmeasy.in/search/all?name={query}', delivery_fee: 40, free_delivery_threshold: 499, pharmacy: true}
+  apollo_pharmacy: {name: Apollo Pharmacy, mode: mock, color: '#ed1c24', url: 'https://www.apollopharmacy.in/search-medicines/{query}', delivery_fee: 40, free_delivery_threshold: 500, pharmacy: true}
+  netmeds: {name: Netmeds, mode: mock, color: '#22a548', url: 'https://www.netmeds.com/catalogsearch/result?q={query}', delivery_fee: 40, free_delivery_threshold: 500, pharmacy: true}
+  pepperfry: {name: Pepperfry, mode: mock, color: '#f36f21', url: 'https://www.pepperfry.com/site_product/search?q={query}', delivery_fee: 199, free_delivery_threshold: 5000}
+  urban_ladder: {name: Urban Ladder, mode: mock, color: '#593b32', url: 'https://www.urbanladder.com/search?q={query}', delivery_fee: 199, free_delivery_threshold: 5000}
+  ikea_india: {name: IKEA India, mode: mock, color: '#0051ba', url: 'https://www.ikea.com/in/en/search/?q={query}', delivery_fee: 149, free_delivery_threshold: 5000}
+  firstcry: {name: FirstCry, mode: mock, color: '#f58220', url: 'https://www.firstcry.com/searchresult?query={query}', delivery_fee: 50, free_delivery_threshold: 699}
+  bookswagon: {name: Bookswagon, mode: mock, color: '#24247b', url: 'https://www.bookswagon.com/search-books/{query}', delivery_fee: 49, free_delivery_threshold: 499}
+  crossword: {name: Crossword, mode: mock, color: '#ed1c24', url: 'https://www.crossword.in/search?q={query}', delivery_fee: 50, free_delivery_threshold: 499}
+
